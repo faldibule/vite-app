@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import Welocome from './Pages/Welocome'
+import ParentRoute from './Routes/ParentRoute'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Welocome />
+      <ParentRoute />
     </div>
   )
 }
