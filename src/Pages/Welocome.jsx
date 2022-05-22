@@ -12,6 +12,9 @@ const Welocome = () => {
                     Home
                 </Link>
             </div>
+            <div className='w-full min-h-screen bg-gradient-to-r from-slate-500 to-slate-50'>
+                <p className='text-4xl m-auto'>Gradient nih bos</p>
+            </div>
         </div>
     );
 };
